@@ -1,0 +1,64 @@
+body {
+  margin-inline: max(0px, (100% - 260px) / 2);
+  font: 85%/1.4 system-ui;
+}
+
+.card {
+  position: sticky;
+  top: 0;
+  background: rgb(247, 247, 247);
+  padding: 24px;
+  box-shadow: 0 -8px 16px rgba(0, 0, 0, 0.15);
+  border: 1.5px solid gold;
+  border-radius: 4px;
+}
+
+.card:nth-child(2) {
+  top: 32px;
+  rotate: 2deg;
+  background-color: rgb(50, 204, 106);
+  border: 1.5px solid gold;
+}
+
+.card:nth-child(3) {
+  top: 48px;
+  rotate: 3deg;
+  background-color:deepskyblue;
+  border: 1.5px solid gold;
+}
+
+.card:nth-child(4) {
+  top: 64px;
+  rotate: 4deg;
+  background-color: coral;
+  border: 1.5px solid gold;
+}
+
+.card:nth-child(5) {
+  top: 80px;
+  rotate: 5deg;
+  background-color: rgb(157, 143, 251);
+  border: 1.5px solid gold;
+}
+
+.card:nth-child(6) {
+  top: 96px;
+  rotate: 6deg;
+  background-color: rgb(238, 161, 192);
+  border: 1.5px solid gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
