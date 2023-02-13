@@ -1,0 +1,125 @@
+body {
+  text-align: center;
+  font-family: 'Happy Monkey', cursive;
+  background: linear-gradient(#035e5b, rgb(221, 128, 34));
+  color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+  text-shadow: 0 0 1px black;
+}
+
+#AP-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #e19b05;
+  margin-bottom: 10px;
+  position: sticky;
+}
+
+#cocktail-side {
+  background: #003566;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
+}
+
+#cocktail-side2 {
+  margin: 0;
+  background: #003566;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cocktail-section {
+  margin-top: 50px;
+}
+
+.gift-title {
+  margin-top: 25px;
+  margin-right: 250px;
+  margin-bottom: 25px;
+  margin-left: 250px;
+  border-radius: 10px;
+  background: #5f6fc0bb;
+}
+
+#gift-img-cheers {
+  height: 200px;
+}
+
+.gift-img {
+  position: relative;
+  margin-top: 25px;
+  margin-right: 75px;
+  margin-bottom: 25px;
+  margin-left: 75px;
+  max-width: 500px;
+  height: 300px;
+  border: 6px solid orange;
+  border-radius: 20px;
+  background-image: url("images/Bar_cover.jpg");
+  background-size: cover;
+}
+
+.recipe-cocktails {
+  display: inline-block;
+  clear: right;
+  margin-top: 25px;
+  margin-right: 75px;
+  margin-bottom: 25px;
+  margin-left: 75px;
+  max-width: 500px;
+  height: 300px;
+  border: 6px solid orange;
+  border-radius: 20px;
+  background-image: url("images/Daiquiri-recipe2.jpg");
+  background-size: cover;
+
+}
+
+#gift-img-Daiquiri:hover {
+  background-image: url("images/Daiquiri.gif");
+  
+}
+
+#gift-img-Whiskey_sour2:hover {
+  background-image: url("images/Whiskey_sour2.gif");
+}
+
+#gift-img-Mimosa_cocktail:hover {
+  background-image: url("images/Mimosa_cocktail.gif");
+}
+
+#gift-img-Mojito_cocktail:hover {
+  background-image: url("images/Mojito_cocktail.gif");
+}
+
+#gift-img-Jungle-Bird_cocktail:hover {
+  background-image: url("images/Jungle-Bird_cocktail.gif");
+}
+
+#footer {
+  font-style: italic;
+  width: 400px;
+  margin: 40px auto 20px;
+}
+
+a {
+  color: purple;
+}
+
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
