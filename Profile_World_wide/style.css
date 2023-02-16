@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-color: #71a0f1;
+    min-height: 350px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+.card::after,
+.card img {
+    border-radius: 50%;
+}
+
+body,
+.card,
+.stats {
+    display: flex;
+}
+
+.card {
+    padding: 40px 32px;
+    border: 4px solid gray;
+    border-radius: 10px;
+    background-color: rgba(232, 173, 85, 0.784);
+    max-width: 500px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .15);
+    margin: 16px;
+    position: relative;
+    transform-style: preserve-3d;
+    overflow: hidden;
+}
+
+.card::before,
+.card::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+}
+
+.card::before {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+    top: -11,2px;
+    left: -11,2;
+}
+
+.card::after {
+    height: 240px;
+    width: 240px;
+    background-color: #3be78baa;
+    top: -128px;
+    right: 128px;
+}
+
+.card img {
+    width: 128px;
+    min-width: 80px;
+
+}
+
+.infos {
+    margin-left: 24px;
+}
+
+.name {
+    margin-bottom: 16px;
+}
+
+.name h2 {
+    font-size: 20.8px;
+}
+
+.name h4 {
+    font-size: 12.8px;
+    color: #333
+}
+
+.text {
+    font-size: 14.4px;
+    margin-bottom: 16px;
+}
+
+.stats {
+    margin-bottom: 16px;
+}
+
+.stats li {
+    min-width: 80px;
+}
+
+.stats li h3 {
+    font-size: 15.84;
+}
+
+.stats li h4 {
+    font-size: 12px;
+}
+
+.links button {
+    font-family: 'Poppins', sans-serif;
+    min-width: 120px;
+    padding: 8px;
+    border: 1px solid #222;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .25s linear;
+}
+
+.links .follow,
+.links .view:hover {
+    background-color: #035b5b;
+    color: #FFF;
+}
+
+.links .view,
+.links .follow:hover {
+    background-color: transparent;
+    color: #222;
+}
+
+@media screen and (max-width: 450px) {
+    .card {
+        display: block;
+    }
+
+    .infos {
+        margin-left: 0;
+        margin-top: 24px;
+    }
+
+    .links button {
+        min-width: 100px;
+    }
+}
