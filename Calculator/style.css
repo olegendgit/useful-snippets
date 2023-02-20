@@ -32,10 +32,10 @@ body {
   grid-template-rows: repeat(2, minmax(40px, auto));
   word-wrap: break-word;
   padding-bottom: 20px;
-  border-top: 3px rgba(238, 211, 5, 0.985) solid;
-  border-right: 3px rgba(238, 211, 5, 0.985) solid;
-  border-bottom: 3px rgba(238, 211, 5, 0.985) solid;
-  border-left: 3px rgba(238, 211, 5, 0.985) solid;
+  border-top: 3px rgba(241, 190, 5, 0.985) solid;
+  border-right: 3px rgba(241, 190, 5, 0.985) solid;
+  border-bottom: 3px rgba(241, 190, 5, 0.985) solid;
+  border-left: 3px rgba(241, 190, 5, 0.985) solid;
 }
 
 #Display-area .currentInput {
