@@ -1,15 +1,38 @@
 body {
+  text-align: unset;
   margin: 0;
+  box-sizing: content-box;
   font-family: "Euclid Circular A";
-  color: #1d1d1d;
-  background: #071a20;
+  font-size: 20px;
+  color: orange;
+  background: #117695bf;
+}
+
+.topnav a {
+  float: left;
+  font-weight: bold ;
+  color: #ffffff;
+  text-align: center;
+  box-sizing: content-box;
+  padding: 14px 16px;
+  background-color: rgb(118, 173, 249);
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #03fd1caf;
+  color: #fcfcfc;
+  padding: 20px 22px;
 }
 
 p,
 h2 {
+  text-align: justify;
   position: relative;
   z-index: 1;
   margin: 20px 15%;
+  color: rgb(255, 255, 255);
 }
 
 p {
@@ -18,6 +41,10 @@ p {
 
 section {
   padding: 40px 0;
+}
+
+.footer{
+  text-align:inherit;
 }
 
 .image {
@@ -30,6 +57,7 @@ section {
 
 .text {
   position: relative;
+  border: 4 px solid yellow;
 }
 
 .text::before {
@@ -40,7 +68,7 @@ section {
   left: 50%;
   width: 150%;
   height: 125%;
-  background: #ffffff;
+  background: #938f8ff6;
   rotate: -3deg;
   translate: -50% -50%;
 }
