@@ -32,7 +32,7 @@ h2 {
   position: relative;
   z-index: 1;
   margin: 20px 15%;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 254, 254);
 }
 
 p {
@@ -68,7 +68,7 @@ section {
   left: 50%;
   width: 150%;
   height: 125%;
-  background: #938f8ff6;
+  background: #037aa6f6;
   rotate: -3deg;
   translate: -50% -50%;
 }
