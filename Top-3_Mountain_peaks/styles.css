@@ -1,12 +1,15 @@
 .name-page{
+    display: block;
+    border: 8px solid yellow;
+    padding: 120px;
     text-align: center;
-    color: rgba(14, 118, 210, 0.757);
+    color:rgba(247, 247, 247, 0.989);
 }
 
 body{
     margin: 0;
     padding: 0;
-    background-color: #a59d137b;
+    background-color: #3636337b;
     min-height: 800px;
     display: flex;
     justify-content: center;
@@ -23,7 +26,7 @@ body{
 }
 
 .face{
-    width: 300px;
+    width: 320px;
     height: 200px;
     border-radius: 10px;
     overflow: hidden;
@@ -35,6 +38,7 @@ body{
     background: #707ea3;
     display: flex;
     justify-content: center;
+    border: 1px solid rgb(240, 156, 71);
     border-radius: 10px;
     align-items: center;
     align-content: center;
@@ -48,6 +52,7 @@ body{
     background: whitesmoke;
     display: flex;
     justify-content: center;
+    border: 1px solid rgb(116, 118, 117);
     border-radius: 10px;
     align-items: center;
     padding: 20px;
@@ -57,7 +62,8 @@ body{
 
 .card:hover .face.face1{
     transform: translateY(0);
-    box-shadow: inset 0 0 60px whitesmoke;
+    box-shadow: inset 0 0 70px whitesmoke;
+    border-color:rgba(3, 119, 115, 0.492)
 }
 
 .outer{
@@ -72,10 +78,11 @@ body{
 
 .card:hover .face.face2{
     transform: translateY(0);
+    transform: translateX(20px)
 }
 
 img{
-    width: 300px;
+    width: 320px;
     height: 200px;
     border-radius: 10px;
 }
@@ -103,6 +110,7 @@ a:hover{
 }
 
 .title{
+    text-align: center;
     position: absolute;
     top: 135px;
     color: #fff;
