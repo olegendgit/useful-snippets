@@ -42,6 +42,7 @@ h1, h2, h3, h4, p {
 }
 
 .gift-name {
+  display: auto;
   position:initial;
   margin-top: 25px;
   margin-right: 25px;
@@ -56,8 +57,10 @@ h1, h2, h3, h4, p {
 }
 
 .gift-title {
+  display: block;
+  text-align: center;
   margin-top: 25px;
-  margin-right: 850px;
+  margin-right: 750px;
   margin-bottom: 25px;
   margin-left: 100px;
   border-radius: 10px;
@@ -83,7 +86,7 @@ h1, h2, h3, h4, p {
 }
 
 .recipe-cocktails {
-  display:flow-root;
+  display: auto;
   margin-top: 25px;
   margin-right: 75px;
   margin-bottom: 25px;
