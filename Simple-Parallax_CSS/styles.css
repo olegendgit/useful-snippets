@@ -44,7 +44,9 @@ section {
 }
 
 .footer{
-  text-align:inherit;
+  position: column;
+  font-style: normal;
+  text-align: right;
 }
 
 .image {
