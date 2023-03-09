@@ -44,23 +44,24 @@ body,
 }
 
 .raindrop {
-position: fixed;
-top: -50px;
-width: 2px;
-height: 30px;
-background-color: #D3D3D3;
-animation: rain 0.8s linear infinite;
-opacity: 0.4;
-z-index: -2;
+  position: fixed;
+  top: -50px;
+  width: 2px;
+  height: 30px;
+  background-color: #D3D3D3;
+  /* animation: rain 0.8s linear infinite; */
+  opacity: 0.4;
+  z-index: -2;
 }
 
 @keyframes rain {
-from {
-left: Math.random() * window.innerWidth;
-}
-to {
-left: Math.random() * window.innerWidth;
-top: 100%;
+  from {
+    left: Math.random() * window.innerWidth;
+  }
+
+  to {
+    left: Math.random() * window.innerWidth;
+    top: 100%;
   }
 }
 
