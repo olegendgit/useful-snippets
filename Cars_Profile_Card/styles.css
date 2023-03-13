@@ -94,7 +94,7 @@ p, a{
     color: #333;
 }
 
-a{
+.button{
     position: relative;
     text-decoration: none;
     color: black;
@@ -106,7 +106,7 @@ a{
 }
 
 
-a:hover{
+.button:hover{
     background: #4b538b;
     color: #fff;
 }
