@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 27.2px;
+	font-family: 'Merriweather Sans', sans-serif;
+	background: #2c3e50;
+	color: #ececec;
+	padding: 64px;
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 80px;
+	font-size: 64px;
+}
+
+.all-products{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.product{
+	overflow: hidden;
+	background: #ffffff;
+	color: #21201e;
+	text-align: center;
+	width: 600px;
+	height: 400px;
+	padding: 32px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 19.2px;
+	margin: 32px;
+}
+
+.product .product-title, .product .product-price{
+	font-size: 18px;
+}
+
+.product:hover img{
+	scale:  1.1;
+	height: 220px;
+}
+
+.product:hover {
+	box-shadow: 5px 15px 25px #eeeeee;
+}
+
+.product img {
+	height: 200px;
+	margin: 16px;
+	transition: all 0.3s;
+	border-radius: 15px;
+}
+
+.product.btn {
+	text-align: left;
+	position: flex;
+}
+
+.product a:link, .product a:visited{
+	color: #ececec;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #2c3e50;
+	padding: 19.2px 48px;
+	border-radius: 16px;
+	margin-top: 16px;
+	font-size: 14px;
+	transition: all 0.2s;
+}
+
+.product a:hover{
+	transform: scale(1.1);
+}
+
