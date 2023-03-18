@@ -12,7 +12,7 @@ html {
 .container {
   width: 100%;
   height: 100vh;
-  background-color: #d9e30c8c;
+  background-color: #2aa90a8c;
   color: #fffcfc;
   display: flex;
   justify-content: center;
@@ -23,6 +23,7 @@ html {
   width: 463px;
   height: 520px;
   background-color: #3f3f3d;
+  border-radius: 10px;
 }
 
 .month {
@@ -31,9 +32,11 @@ html {
   background-color: #6283f0;
   display: flex;
   justify-content: space-between;
+  border-radius: 10px;
   align-items: center;
   padding: 0 32px;
   text-align: center;
+  
 }
 
 .month i {
