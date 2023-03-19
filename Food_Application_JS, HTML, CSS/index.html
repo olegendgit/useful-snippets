@@ -1,21 +1,28 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Food Recipe Application</title>
+    <title>Recipe App</title>
+    <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
       rel="stylesheet"
     />
-
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="app.css" />
   </head>
   <body>
     <div class="container">
       <div class="search-container">
-        <input type="text" placeholder="Type A Dish Name Here..." id="user" />
+        <input
+          type="text"
+          placeholder="Type A Dish Name Here.."
+          id="user-inp"
+        />
+        <button id="search-btn">Search</button>
       </div>
+      <div id="result"></div>
     </div>
+    <!-- Script -->
     <script src="app.js"></script>
   </body>
 </html>
