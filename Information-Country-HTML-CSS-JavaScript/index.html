@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=8" />
     <title>Short-Country-Information</title>
     <style>
-      @import url('https://fonts.googleleapis.com/css2?family=Poppins&display=swap');
-      .active{
-        
+      @import url("https://fonts.googleleapis.com/css2?family=Poppins&display=swap");
+      .active {
+        display: block;
+      }
+      .inactive {
+        display: none;
+      }
+      body {
+        background: #0e0e0e;
       }
     </style>
   </head>
@@ -32,13 +38,13 @@
       <button id="searchButton" class="active">Search</button>
       <button id="extraInfoButton" class="active">More information</button>
     </div>
-    <div id = 'container_2' class = 'inactive'>
-      <ul id = 'extra-info'>
-        <li id = 'car'>Car</li>
-        <li id = 'subregion'>Subregion</li>
-        <li id = 'startOfWeek'>Start of Week</li>
-        <li id = 'languages'>Languages</li>
+    <div id="container_2" class="inactive">
+      <ul id="extra-info">
+        <li id="car">Car</li>
+        <li id="subregion">Subregion</li>
+        <li id="startOfWeek">Start of Week</li>
+        <li id="languages">Languages</li>
       </ul>
-
+    </div>
   </body>
 </html>
