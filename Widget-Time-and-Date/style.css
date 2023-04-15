@@ -1,0 +1,27 @@
+body {
+  background: #3a2f73;
+
+}
+
+.datetime {
+  font-size: 16px;
+  padding: 24px;
+  color: #ded3d3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border-right: 10px #009578 solid;
+  border: 2px solid orange;
+  width: 400px;
+  font-family: sans-serif;
+}
+
+.time {
+  font-size: 3em;
+  color: #00ffcc;
+
+}
+
+.date {
+  margin-top: 12px;
+  font-size: 1.75em;
+}
