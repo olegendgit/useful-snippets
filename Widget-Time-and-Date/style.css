@@ -12,6 +12,7 @@ body {
   border-right: 10px #009578 solid;
   border: 2px solid orange;
   width: 400px;
+  font-weight: 500;
   font-family: sans-serif;
 }
 
