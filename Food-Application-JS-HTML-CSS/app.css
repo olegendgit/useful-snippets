@@ -15,6 +15,8 @@ body {
   max-width: 512px;
   position: absolute;
   transform: translate(-50%, -50%);
+  box-shadow: 2px 5px 5px 2px;
+  box-shadow: grey;
   left: 50%;
   top: 50%;
   border-radius: 9.6px;
@@ -84,9 +86,10 @@ img:hover {
   font-weight: 600;
 }
 #show-recipe:hover {
-  background-color: #0c76c2c7;
+  display: block;
+  background-color: #02b8e5c7;
+  transform: all 3s;
   
-
 }
 #recipe {
   position: absolute;
@@ -99,6 +102,15 @@ img:hover {
   border-radius: 9.6px;
   display: none;
 }
+#recipe:hover {
+  display: block;
+  background: url(images/Image-background.jpg);
+  border: 4px dotted rgb(213, 255, 5);
+  font-style: italic;
+  font-weight: bold;
+
+}
+
 #recipe pre {
   white-space: pre-wrap;
   word-wrap: break-word;
@@ -112,11 +124,25 @@ img:hover {
   position: relative;
   width: 28.8px;
   height: 28.8px;
-  background-color: #df482ded;
   border: none;
   top: 19.2px;
   left: 90%;
   border-radius: 4.8px;
+}
+#hide-recipe {
+  flex: 1;
+  background-color: #fa9702;
+  color: #fff;
+  border: 1px solid;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+}
+
+#hide-recipe:hover,
+#hide-recipe:focus {
+  background-color: #12dd63;
+  color: #333;
 }
 ul {
   font-size: 16px;
@@ -133,6 +159,14 @@ h3 {
   margin-top: 28.8px;
   color: #202030;
 }
+/* #title { */
+  /* position: inherit; */
+  /* text-align: center; */
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  /* font-size: 150px; */
+  /* font-style: italic; */
+  /* font-weight: 200; */
+/* } */
 @media screen and (max-width: 500px) {
   .container {
     font-size: 14px;
