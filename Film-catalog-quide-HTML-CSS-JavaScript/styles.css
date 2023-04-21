@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(#000000 50%, #ffb92a 50%);
+}
+.container {
+  font-size: 6px;
+  width: 90vw;
+  max-width: 37.5em;
+  padding: 3em 1.8em;
+  background-color: #201f28;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 0.6em;
+  box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+  
+
+
+}
