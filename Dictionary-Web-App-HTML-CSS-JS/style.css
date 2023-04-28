@@ -44,3 +44,29 @@ body {
   color: #ffffff;
   border-radius: 5px;
 }
+.result {
+  position: relative;
+}
+.result h3 {
+  font-size: 30px;
+  color: #1f194c;
+}
+.result.word {
+  display: flex;  
+  justify-content: space space-between;
+  margin-top: 80px;
+}
+.result button {
+  background-color: transparent;
+  color: #ae9cff;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+.result.details {
+  display: flex;
+  gap: 10px;
+  color: #b3b6d4;
+  margin: 5px 0 20px 0;
+  font-size: 14px;
+}
