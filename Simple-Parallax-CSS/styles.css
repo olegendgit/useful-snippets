@@ -42,6 +42,9 @@ p {
 section {
   padding: 40px 0;
 }
+.header {
+  position:relative;
+}
 
 .footer{
   position: column;
