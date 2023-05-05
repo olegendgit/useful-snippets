@@ -5,6 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Push-burger-navigation-menu</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+
+      .nav-open .nav {
+        transform: translate(0);
+      }
+
+      .nav-open .main {
+        transform: translate(350px);
+      }
+      .nav {
+        width: 350px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #333333;
+        transform: translate(-350px);
+        transition: transform 0.2s;
+      }
+      .nav-close {
+        background: none;
+        border: none;
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        padding: 15px 25px;
+        color: #dddddd;
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
     <nav class="nav">
@@ -42,7 +76,14 @@
         </div>
       </div>
     </nav>
-    <main class="main">Content goes inside here</main>
+    <main class="main">
+      <button type="button">Open Navigation</button>
+    </main>
+    <script>
+      function toggleNav() {
+        document.body.classList.toggle("nav-open");
+      }
+    </script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
