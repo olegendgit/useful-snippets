@@ -8,7 +8,7 @@
     <style>
       body {
         margin: 0;
-        overflow: hidden;
+        overflow-x: hidden;
       }
 
       .nav-open .nav {
@@ -24,9 +24,10 @@
         position: fixed;
         top: 0;
         left: 0;
-        background: #333333;
+        background: rgb(10, 99, 144);
         transform: translate(-350px);
         transition: transform 0.2s;
+        overflow: hidden;
       }
       .nav-close {
         background: none;
@@ -38,9 +39,34 @@
         color: #dddddd;
         cursor: pointer;
       }
+
+      .nav-links-container {
+        box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.15);
+      }
+      .nav-link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 25px;
+        text-decoration: none;
+        color: #dddddd;
+      }
+
+      .nav-text {
+        font-size: 22px;
+        font-family: "Assistant", sans-serig;
+      }
+
+      .nav-link:hover,
+      .nav-close:hover {
+        background: rgba(255, 255, 255, 0.05);
+      }
+      .main {
+        transition: transform 0.2s;
+      }
     </style>
   </head>
-  <body>
+  <body class="nav-open">
     <nav class="nav">
       <button type="button" class="nav-close">
         <ion-icon name="close-outline" size="large"></ion-icon>
@@ -77,12 +103,15 @@
       </div>
     </nav>
     <main class="main">
-      <button type="button">Open Navigation</button>
+      <button type="button" onclick="toggleNav()">Open Navigation</button>
     </main>
     <script>
       function toggleNav() {
         document.body.classList.toggle("nav-open");
       }
+      document.querySelector(".nav-close").addEventListener("click", () => {
+        toggleNav();
+      });
     </script>
     <script
       type="module"
