@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../Downloads/Projects-zipfiles-main/Alarm Clock in JavaScript"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "useful-snippets"
+  }
+}
