@@ -56,6 +56,21 @@ body {
   border-radius: 0;
   text-align: left;
 }
+.menu-bar ul li:hover .sub-menu-1 li::last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+  color: #b2ff00;
+}
+.fa-angle-rigth {
+  float:right;
+}
+.fa-angle-right {
+  float: right;
+}
+.sub-menu-2 {
+  float: right;
+}
 
 
 
