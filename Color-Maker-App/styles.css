@@ -35,6 +35,7 @@ body {
   color: #fff;
   padding: 10px;
   border-radius: 10px;
+  transition: background 0.3s;
 }
 .col button:hover {
   background: rgba(0, 0, 0, 0.1);
