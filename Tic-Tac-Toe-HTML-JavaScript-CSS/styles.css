@@ -9,6 +9,7 @@
 
 body {
   margin: 0;
+  background-color: rgb(235, 174, 103);
 }
 
 .board {
@@ -106,7 +107,35 @@ body {
 .board.circle .cell:not(.x):not(circle):hover::after {
   width: calc(var(--mark-size) * .7);
   height: calc(var(--mark-size) *.7);
-  background-color: white;
+  background-color: rgb(157, 164, 255);
+}
+
+.winning-message {
+  position: fixed;
+  top: 0;
+  left: 75px;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0 ,0 .9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: greenyellow;
+  font-family: 'Rowdies', cursive;
+  font-size: 60px;
+}
+.winning-message button {
+  top: 0;
+  left: 35px;
+  right: 0px;
+  bottom: 0;
+  font-size: 30px;
+  background-color: yellow;
+  border: 2px solid rgb(228, 145, 21);
+  border-radius: 10px;
+  padding: .35em .8em;
+  margin: .20em, .65em;
+  cursor: pointer;
 }
 
 
