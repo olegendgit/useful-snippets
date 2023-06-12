@@ -111,18 +111,19 @@ body {
 }
 
 .winning-message {
+  display: none;
   position: fixed;
   top: 0;
   left: 75px;
   right: 0;
   bottom: 0;
   background: rgba(0, 0 ,0 .9);
-  display: flex;
   justify-content: center;
   align-items: center;
-  color: greenyellow;
+  color: rgb(47, 85, 255);
   font-family: 'Rowdies', cursive;
   font-size: 60px;
+  flex-direction: column;
 }
 .winning-message button {
   top: 0;
@@ -136,6 +137,16 @@ body {
   padding: .35em .8em;
   margin: .20em, .65em;
   cursor: pointer;
+}
+
+.winning-message button:hover {
+  background-color: rgb(8, 155, 106);
+  color: white;
+  border-color: white;
+}
+
+.winning-message.show {
+  display: flex;
 }
 
 
