@@ -1,0 +1,43 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(images/Wood_house.jpeg);
+}
+.menu 
+{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu .toggle
+{
+  position:absolute;
+  width: 75px;
+  background: #fff;
+  color: #262233;
+  border-radius: 50%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-size: 3em;
+  transition: 0.5s;
+}
+.menu.toggle.active
+{
+  transform: rotate(315deg);
+  box-shadow: 0 0 0 66px #fff;
+  background: #262433;
+  color: #fff;
+}
