@@ -26,10 +26,18 @@ html{
 body{
   height: 100%;
 }
+body header {
+  text-align: center;
+  color:#545454;
+  background-color: #eaa91d;
+  text-transform: uppercase;
+  padding-bottom: 3.5rem;
+  font-size: 4rem;
+}
 
 .hero-section{
   align-items: flex-start;
-  background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%);
+  background-image: linear-gradient(15deg, #eaa91d 0%, #3e61a1 150%);
   display: flex;
   min-height: 100%;
   justify-content: center;
@@ -92,6 +100,7 @@ body{
 
 .card-grid:hover > .card:not(:hover) .card__background{
   filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+  border: 1px solid of rgb(222, 92, 28);
 }
 
 .card__content{
