@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root{
-    --main-color:#d3ad7f;
+    --main-color:#e5a52f;
     --black:#13131a;
-    --bg:#515152;
+    --bg: rgb(69, 71, 69) ;
     --border:.1rem solid rgba(255,255,255,.3);
 }
 
@@ -57,7 +57,7 @@ section{
 }
 
 .heading span{
-    color:var(--main-color);
+    color: rgb(15, 137, 123);
     text-transform: uppercase;
     border-radius: 5rem;
 }
@@ -93,6 +93,7 @@ section{
 
 .header .logo img{
     height: 6rem;
+    border-radius: 30px;
 }
 
 .header .navbar a{
@@ -221,7 +222,7 @@ section{
     height: 110vh;
     display: flex;
     align-items: center;
-    background:url(../images/home-img.jpg) no-repeat;
+    background:url(images/home-img.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -310,11 +311,18 @@ section{
     font-size: 1.5rem;
     text-decoration: line-through;
     font-weight: lighter;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .menu .box-container .box:hover{
-    background:#fff;
+    background:#1c6a9d;
+}
+.menu .box-container .box .image{
+    padding: 2.5rem 0;
+    content: '';
+    display: block;
+    padding-bottom: 150%;
+    width: 100%;
 }
 
 .menu .box-container .box:hover > *{
@@ -345,10 +353,6 @@ section{
 
 .products .box-container .box .icons a:hover{
     background:var(--main-color);
-}
-
-.products .box-container .box .image{
-    padding: 2.5rem 0;
 }
 
 .products .box-container .box .image img{
@@ -415,7 +419,7 @@ section{
 .review .box-container .box .stars i{
     font-size: 1.5rem;
     color:var(--main-color);
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .contact .row{
@@ -423,7 +427,7 @@ section{
     background:var(--black);
     flex-wrap: wrap;
     gap:1rem;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .contact .row .map{
@@ -431,21 +435,21 @@ section{
     width: 100%;
     object-fit: cover;
     padding: 20px 40px;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .contact .row form{
     flex:1 1 45rem;
     padding:5rem 2rem;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .contact .row form h3{
     text-transform: uppercase;
     font-size: 3.5rem;
     color:#fff;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .contact .row form .inputBox{
@@ -470,7 +474,7 @@ section{
     color:#fff;
     text-transform: none;
     background:none;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .blogs .box-container{
@@ -482,43 +486,43 @@ section{
 
 .blogs .box-container .box{
     border:var(--border);
-    border-radius: 8px;    
+    border-radius: 15px;    
 }
 
 .blogs .box-container .box .image{
     height: 25rem;
     overflow:hidden;
     width: 100%;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .blogs .box-container .box .image img{
     height: 100%;
     object-fit: cover;
     width: 100%;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .blogs .box-container .box:hover .image img{
     transform: scale(1.2);
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .blogs .box-container .box .content{
     padding:2rem;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .blogs .box-container .box .content .title{
     font-size: 2.5rem;
     line-height: 1.5;
     color:#fff;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .blogs .box-container .box .content .title:hover{
     color:var(--main-color);
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .blogs .box-container .box .content span{
@@ -526,7 +530,7 @@ section{
     display: block;
     padding-top: 1rem;
     font-size: 2rem;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .blogs .box-container .box .content p{
@@ -534,7 +538,7 @@ section{
     line-height: 1.8;
     color:#ccc;
     padding:1rem 0;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .footer{
@@ -544,7 +548,7 @@ section{
 
 .footer .share{
     padding:1rem 0;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .footer .share a{
@@ -556,7 +560,7 @@ section{
     border:var(--border);
     margin:.3rem;
     border-radius: 50%;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .footer .share a:hover{
@@ -569,7 +573,7 @@ section{
     flex-wrap: wrap;
     padding:2rem 0;
     gap:1rem;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .footer .links a{
@@ -577,12 +581,12 @@ section{
     color:#fff;
     border:var(--border);
     font-size: 2rem;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .footer .links a:hover{
     background:var(--main-color);
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .footer .credit{
@@ -590,7 +594,7 @@ section{
     color:#fff;
     font-weight: lighter;
     padding:1.5rem;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .footer .credit span{
