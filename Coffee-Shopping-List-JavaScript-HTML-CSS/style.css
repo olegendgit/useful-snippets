@@ -70,12 +70,14 @@ section{
     color:#fff;
     background: var(--main-color);
     cursor: pointer;
+    border: 1.5px solid white;
     border-radius: 5px;
 }
 
 .btn:hover{
     letter-spacing: .2rem;
     border-radius: 5rem;
+    background-color: rgba(10, 171, 10, 0.788);
 }
 
 .header{
@@ -315,7 +317,7 @@ section{
 }
 
 .menu .box-container .box:hover{
-    background:#1c6a9d;
+    background:#f2dc84cf;
 }
 .menu .box-container .box .image{
     padding: 2.5rem 0;
