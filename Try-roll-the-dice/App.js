@@ -1,15 +1,21 @@
-function search_country() {
-     let input = document.getElementById('searchbar').value 
-     input=input.toLowerCase();
-     let x = document.getElementByIdClassName('countryes');
+var player1 = "Player 1";
+var player2 = "Player 2";
+    function editNames() {
+     player1 = prompt("Change Player1 name");
+     player2 = prompt("Change player2 name");
 
-      for (i = 0; i < x.length; i++) {
-          if (!x[i].innerHTML.toLowerCase().includes(input)) {
-               x[i].style.display="none";
-  }
-          else {
-               x[i].style.display="list-item";
-       }
-     }
+     document.querySelector("p.Player1").innerHTML = player1;
+     document.querySelector("p.Player2").innerHTML = player2;
+ }
+ function rollTheDice() {
+     setTimeout(function () {
+         var randomNumber1 = Math.floor(Math.random() * 6) + 1;
+         var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
-}
+         document.querySelector(".img1").setAttribute("src",
+             "dice" + randomNumber1 + ".png");
+
+         document.querySelector(".img2").setAttribute("src",
+             "dice" + randomNumber2 + ".png");
+        }
+     )}
