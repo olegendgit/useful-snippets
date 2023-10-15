@@ -62,3 +62,13 @@ header {
   overflow-x: auto;
   transition: all 0.45s ease-in-out;
 }
+.tabs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #F0F0F0;
+  list-style-type: none;
+  padding-right: 16px;
+  gap: 8px;
+}
+
